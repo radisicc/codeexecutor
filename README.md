@@ -15,10 +15,12 @@ A web-based code execution environment that lets you run code in isolated sandbo
 2. Install dependencies: `npm install`
 3. Create a `.env` file with your API keys:
 
+```bash
 DAYTONA_API_KEY=your-daytona-api-key
 DAYTONA_SERVER_URL=your-daytona-server-url
 DAYTONA_TARGET=us
 ANTHROPIC_API_KEY=your-anthropic-api-key
+```
 
 4. Run the server: `npm start`
 5. Open http://localhost:3000 in your browser
